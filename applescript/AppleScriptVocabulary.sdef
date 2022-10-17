@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="AECommands Terminology">
+	<suite name="AECommands Suite" code="AEco" description="Commands for Oscar The Grouch">
+		<command name="showprefs" code="AEcoShPr" description="Shows the preferences window"></command>
+		<command name="showabout" code="AEcoShAb" description="Shows the about window"></command>
+		<command name="showoscar" code="AEcoShOs" description="Shows Oscar"></command>
+	</suite>
+</dictionary>
