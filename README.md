@@ -20,3 +20,4 @@ If you are not in the mood for downloading and compiling source code, there is a
 [Downloadable prebuilt Macintosh version](https://dl.dropboxusercontent.com/s/3zgws95d8cs3osf/Oscar%20the%20Grouch.zip?dl=0)
 
 
+screengrabs/oscar-the-grouch.mp4
