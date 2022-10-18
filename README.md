@@ -17,7 +17,7 @@ You will likely have to allow Oscar some permissions in your Security system pre
 
 If you are not in the mood for downloading and compiling source code, there is a zip file with a universal binary compiled for macOS here:
 
-[Downloadable prebuilt Macintosh version](https://dl.dropboxusercontent.com/s/3zgws95d8cs3osf/Oscar%20the%20Grouch.zip?dl=0)
+[Downloadable prebuilt Macintosh version](https://dl.dropboxusercontent.com/s/9fr7sc3zekolu9j/Oscar-the-Grouch.zip?dl=0)
 
 https://user-images.githubusercontent.com/10506323/196367473-cacffcce-29e2-4d91-b163-d92f248296ae.mp4
 
