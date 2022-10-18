@@ -556,6 +556,12 @@ End
 #tag WindowCode
 	#tag Event
 		Sub Close()
+		  if App.w <> nil then
+		    
+		    App.w.Close()
+		    
+		  end if
+		  
 		  App.preferencesWindow = nil
 		  
 		End Sub
@@ -784,7 +790,6 @@ End
 		    App.w.Show()
 		    
 		  end if
-		  
 		  
 		  
 		End Sub

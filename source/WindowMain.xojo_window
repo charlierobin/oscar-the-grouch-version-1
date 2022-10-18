@@ -76,6 +76,7 @@ End
 		  
 		  App.w = nil
 		  
+		  
 		End Sub
 	#tag EndEvent
 
@@ -144,24 +145,41 @@ End
 		    
 		  end if
 		  
-		  if App.preferencesJSON.HasKey( "Left" ) then
+		  if Keyboard().AsyncCommandKey then
 		    
-		    self.Left = App.preferencesJSON.Value( "Left" )
+		    self.Width = self.MinimumWidth
 		    
-		    self.Top = App.preferencesJSON.Value( "Top" )
+		    self.Height = self.MinimumHeight
+		    
+		    self.Left = App.preferencesWindow.Left + App.preferencesWindow.Width + 20
+		    
+		    self.Top = App.preferencesWindow.Top
+		    
+		  else
+		    
+		    if App.preferencesJSON.HasKey( "Width" ) then
+		      
+		      self.Width = App.preferencesJSON.Value( "Width" )
+		      
+		      self.Height = App.preferencesJSON.Value( "Height" )
+		      
+		    end if
+		    
+		    if App.preferencesJSON.HasKey( "Left" ) then
+		      
+		      self.Left = App.preferencesJSON.Value( "Left" )
+		      
+		      self.Top = App.preferencesJSON.Value( "Top" )
+		      
+		    else
+		      
+		      self.Left = App.preferencesWindow.Left + App.preferencesWindow.Width + 20
+		      
+		      self.Top = App.preferencesWindow.Top
+		      
+		    end if
 		    
 		  end if
-		  
-		  if App.preferencesJSON.HasKey( "Width" ) then
-		    
-		    self.Width = App.preferencesJSON.Value( "Width" )
-		    
-		    self.Height = App.preferencesJSON.Value( "Height" )
-		    
-		  end if
-		  
-		  
-		  
 		  
 		End Sub
 	#tag EndEvent
