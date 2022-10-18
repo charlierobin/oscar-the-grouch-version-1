@@ -19,4 +19,5 @@ If you are not in the mood for downloading and compiling source code, there is a
 
 [Downloadable prebuilt Macintosh version](https://dl.dropboxusercontent.com/s/3zgws95d8cs3osf/Oscar%20the%20Grouch.zip?dl=0)
 
-<video src="https://github.com/charlierobin/oscar-the-grouch-version-1/blob/main/screengrabs/oscar-the-grouch.mp4?raw=true"></video>
+https://user-images.githubusercontent.com/10506323/196367473-cacffcce-29e2-4d91-b163-d92f248296ae.mp4
+
