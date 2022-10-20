@@ -175,6 +175,8 @@ Inherits Application
 		    
 		    me.preferencesJSON.Value( "musicVolume" ) = 10
 		    
+		    me.showPreferences()
+		    
 		  end if
 		  
 		  

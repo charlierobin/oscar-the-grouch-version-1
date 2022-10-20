@@ -10,7 +10,7 @@ Begin Window WindowPreferences
    HasFullScreenButton=   False
    HasMaximizeButton=   False
    HasMinimizeButton=   False
-   Height          =   412
+   Height          =   448
    ImplicitInstance=   False
    MacProcID       =   0
    MaximumHeight   =   32000
@@ -50,7 +50,7 @@ Begin Window WindowPreferences
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   372
+      Top             =   408
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -82,7 +82,7 @@ Begin Window WindowPreferences
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   372
+      Top             =   408
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -200,7 +200,7 @@ Begin Window WindowPreferences
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   201
+      Top             =   172
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -231,7 +231,7 @@ Begin Window WindowPreferences
          TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   237
+         Top             =   208
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -260,7 +260,7 @@ Begin Window WindowPreferences
          TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   237
+         Top             =   208
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -290,7 +290,7 @@ Begin Window WindowPreferences
          TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   237
+         Top             =   208
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -320,7 +320,7 @@ Begin Window WindowPreferences
          TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   237
+         Top             =   208
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -350,7 +350,7 @@ Begin Window WindowPreferences
          TabPanelIndex   =   0
          TabStop         =   True
          Tooltip         =   ""
-         Top             =   237
+         Top             =   208
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -386,7 +386,7 @@ Begin Window WindowPreferences
          TextAlignment   =   0
          TextColor       =   &c00000000
          Tooltip         =   ""
-         Top             =   302
+         Top             =   273
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -415,7 +415,7 @@ Begin Window WindowPreferences
          TabStop         =   True
          TickMarkStyle   =   0
          Tooltip         =   ""
-         Top             =   303
+         Top             =   274
          Transparent     =   False
          Value           =   100
          Visible         =   True
@@ -450,7 +450,7 @@ Begin Window WindowPreferences
          TextAlignment   =   0
          TextColor       =   &c00000000
          Tooltip         =   ""
-         Top             =   270
+         Top             =   241
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -479,7 +479,7 @@ Begin Window WindowPreferences
          TabStop         =   True
          TickMarkStyle   =   0
          Tooltip         =   ""
-         Top             =   271
+         Top             =   242
          Transparent     =   False
          Value           =   100
          Visible         =   True
@@ -512,7 +512,7 @@ Begin Window WindowPreferences
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   161
+      Top             =   140
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -544,11 +544,73 @@ Begin Window WindowPreferences
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   120
+      Top             =   108
       Transparent     =   False
       Underline       =   False
       Visible         =   True
       Width           =   124
+   End
+   Begin Label LabelHint
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      FontName        =   "System"
+      FontSize        =   0.0
+      FontUnit        =   0
+      Height          =   63
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   64
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      Multiline       =   True
+      Scope           =   2
+      Selectable      =   False
+      TabIndex        =   19
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "To show this dialog again, hold down command key when launching/activating the app (double clicking the app icon, or selecting icon in the Finder and choosing “Open” from Finder menu/contextual menu)."
+      TextAlignment   =   0
+      TextColor       =   &c00000000
+      Tooltip         =   ""
+      Top             =   326
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   550
+   End
+   Begin Canvas CanvasInfoIcon
+      AllowAutoDeactivate=   True
+      AllowFocus      =   False
+      AllowFocusRing  =   True
+      AllowTabs       =   False
+      Backdrop        =   0
+      DoubleBuffer    =   False
+      Enabled         =   True
+      Height          =   32
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Left            =   26
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   2
+      TabIndex        =   20
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   331
+      Transparent     =   True
+      Visible         =   True
+      Width           =   32
    End
 End
 #tag EndWindow
@@ -790,6 +852,15 @@ End
 		    App.w.Show()
 		    
 		  end if
+		  
+		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events CanvasInfoIcon
+	#tag Event
+		Sub Paint(g As Graphics, areas() As REALbasic.Rect)
+		  g.DrawPicture( infoicon, 0, 0, g.Width, g.Height, 0, 0, infoicon.Width, infoicon.Height )
 		  
 		  
 		End Sub
