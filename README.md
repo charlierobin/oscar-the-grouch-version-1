@@ -1,6 +1,6 @@
 # The Grouch for macOS
 
-(See also [this slightly dofferent version](https://github.com/charlierobin/oscar-the-grouch-version-2))
+(See also [this slightly different version](https://github.com/charlierobin/oscar-the-grouch-version-2))
 
 Based on the original System 6/System 7 Macintosh system extension by Eric Shapiro and Ken Hornak.
 
