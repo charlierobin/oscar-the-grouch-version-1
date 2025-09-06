@@ -4,6 +4,8 @@
 
 A new version of Oscar the Grouch for macOS (formerly known as OSX), based on the original System 6/System 7 Macintosh system extension by Eric Shapiro and Ken Hornak.
 
+https://cronicle.press/2019/04/24/eric-shapiro-the-oscar-the-grouch-mac-hack-guy/
+
 Drag a file you don’t need into the trash and select “Empty…” from the Finder menu.
 
 The command key keeps Oscar in the trash.
