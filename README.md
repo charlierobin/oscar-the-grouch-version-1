@@ -1,8 +1,8 @@
-# The Grouch for macOS
+# Oscar The Grouch for Macintosh
 
 (See also [this slightly different version](https://github.com/charlierobin/oscar-the-grouch-version-2))
 
-Based on the original System 6/System 7 Macintosh system extension by Eric Shapiro and Ken Hornak.
+A new version of Oscar the Grouch for macOS (formerly known as OSX), based on the original System 6/System 7 Macintosh system extension by Eric Shapiro and Ken Hornak.
 
 Drag a file you don’t need into the trash and select “Empty…” from the Finder menu.
 
